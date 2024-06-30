@@ -1,5 +1,6 @@
-# Website-checker-Database-writer
-Website checker that checks websites availabilities and saves result checks into a PostgreSQL database
+# Website-monitor
+Website Availability Checker is a robust Python tool designed to monitor the availability of websites and store the results in a PostgreSQL database. This project ensures continuous monitoring of website statuses, providing insights into their uptime and downtime periods.
+
 
 Prerequisites
 -------------
@@ -22,7 +23,7 @@ pip install -r requirements.txt
 Configuration
 -------------
 
-Website-checker-Database-writer can be configured using the config.yaml file in the root directory. The following params are available:
+Website-monitor can be configured using the config.yaml file in the root directory. The following params are available:
 
 KafkaProducer configurations:
 - `topic_name`: The name of the Kafka topic to publish check results to
