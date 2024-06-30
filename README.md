@@ -1,5 +1,10 @@
 # Website-monitor
-Website Availability Checker is a robust Python tool designed to monitor the availability of websites and store the results in a PostgreSQL database. This project ensures continuous monitoring of website statuses, providing insights into their uptime and downtime periods.
+
+![Website Monitor](https://img.shields.io/badge/Website%20Monitor-Python%20%7C%20PostgreSQL%20%7C%20Apache%20Kafka-blueviolet)
+
+## Overview
+
+This project is designed to monitor the availability of websites and store the results in a PostgreSQL database. This project ensures continuous monitoring of website statuses, providing insights into their uptime and downtime periods.
 
 
 Prerequisites
